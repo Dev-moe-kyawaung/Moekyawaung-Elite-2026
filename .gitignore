@@ -1,0 +1,96 @@
+# .gitignore
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode-test/
+.history/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Dependency Directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# Build Files
+dist/
+build/
+.cache/
+.parcel-cache/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup Files
+*.bak
+*.backup
+*~
+*.orig
+
+# Archive Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Package Manager Lock Files (optional)
+# Uncomment if you want to ignore them
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Misc
+.sass-cache/
+*.css.map
+*.js.map
+.eslintcache
+.stylelintcache
